@@ -1,0 +1,64 @@
+.body {
+    background-image: url('https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGNhZiVDMyVBOSUyMGVuJTIwZWwlMjBlc2NyaXRvcmlvfGVufDB8fDB8fHww');
+    background-repeat: repeat; /* Hace que la imagen se repita para crear un efecto de mosaico */
+    background-size: auto; /* Mantiene el tamaño original de la imagen */
+    background-attachment: fixed; /* Hace que el fondo se mantenga fijo al hacer scroll */
+    background-position: top left; /* Coloca el mosaico desde la esquina superior izquierda */
+    margin: 0; /* Elimina cualquier margen predeterminado */
+    padding: 0; /* Elimina cualquier relleno predeterminado */
+    min-height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+    width: 100vw; /* Asegura que el fondo cubra todo el ancho de la ventana */
+}
+
+.container
+{
+    background-color: rgb(224, 200, 150);
+    border-radius: 20px;
+}
+
+h1
+{
+    color: rgb(180, 147, 147);
+    background-color:rgb(121, 78, 14);
+}
+
+section
+{
+    border-radius: 50px;
+    background-color: blue;
+}
+
+.row
+{
+    width: 500000px ;
+    height: 500px;
+
+}
+
+.logo {
+    width: 150px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que el margen automático funcione */
+    border: 2px solid #f0c239; /* Añade un borde alrededor de la imagen */
+    border-radius: 12%; /* Hace la imagen circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra */
+    transition: transform 0.3s ease; /* Añade una transición suave */
+}
+
+.logo1 {
+    width: 150px; /* Ajusta el tamaño según tus necesidades */
+    height: 150px; /* Mantiene la proporción de la imagen */
+    margin: 250px;; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que el margen automático funcione */
+    border: 2px solid #f0c239; /* Añade un borde alrededor de la imagen */
+    border-radius: 12%; /* Hace la imagen circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra */
+    transition: transform 0.3s ease; /* Añade una transición suave */
+}
+
+.imagenes
+{
+    width: 320px;
+    height: 330px;
+}
